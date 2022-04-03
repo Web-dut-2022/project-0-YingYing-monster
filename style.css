@@ -1,0 +1,190 @@
+body {
+	font-family: Futura, Trebuchet MS, Arial, san-serif;
+	color:#202124;
+
+}
+
+.navbar {
+	text-align:right;
+	margin-top:12px;
+	margin-right:1.5%;
+	padding-top:6px;
+}
+.navbar li {
+	display: inline-block;
+	padding: 10px;
+}
+.navbar a {
+	color:#202124;
+	text-decoration: none;
+	cursor: pointer;
+	font: 13px Arial, sans-serif, z-index:986;
+	padding-right: 15px;
+
+}
+.navbar a,  .navbar a:hover {
+	text-decoration: none;
+}
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+.searchbar {
+  	background-color:transparent;
+	border-style:solid;
+	border-radius: 20px;
+	border-width: 1px;
+	color:rgba(0,0,0,.87);
+	word-wrap:break-word;
+	outline:none;
+	display:flex;
+	flex:100%;
+	-webkit-tap-highlight-color:transparent;
+	width: 490px;
+	height:34px;
+	font-size:16px;
+}
+
+.searchbutton {
+	background-color: #F8F9FA;
+	border-style: none;
+	margin: 11px 4px;
+	padding: 8px 16px;
+}
+
+.center {
+	height:92px;
+	margin-top: 101.6px;
+	position: relative;
+}
+
+.logostyle {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit:contain;
+	object-position:center bottom;
+	width:auto;
+}
+
+.images {
+	color:#4285f4;
+	font:16px roboto-regular, arial, sans-serif;
+	position: absolute; 
+	left:215px;
+	bottom: 0px;
+	height: 16px;
+}
+
+.bar1 {
+	display:flex;
+	z-index:3;
+	height:44px;
+	background:#fff;
+	border:1px solid #dfe1e5;
+	box-shadow:none;
+	border-radius:24px;
+	margin:0 auto;
+	width:auto;
+	max-width:584px;
+	margin-top: 5px;
+}
+
+.bar2 {
+	flex:1;
+	display:flex;
+	padding:5px 8px 0 14px;
+}
+
+.bar3 {
+	display:flex;
+	align-items:center;
+	padding-right:13px;
+	margin-top:-5px;
+}
+
+.imagebutton {
+	height:44px;
+	width:44px;
+	background:transparent;
+	border:none;
+	padding:0 13px 0 0;
+}
+
+.options {
+	float: left; min-width: 167px; 
+	width: 16%; 
+	height: 42px; 
+	color: #222; 
+	font-size: 13px; 
+	line-height: 16px;
+}
+    
+.inputBar {
+	float: left; 
+	width: 50%;
+	height: 42px;
+}
+
+.textInput {
+	border-radius: 1px; 
+	border: 1px solid #d9d9d9; 
+	border-top: 1px solid #c0c0c0; 
+	font-size: 13px;
+	 height: 25px;
+	width: 97%; 
+	padding: 1px 8px;
+}
+
+ .directions {
+	float: left;
+	 width: 32%;
+	 min-width: 160px;
+	height: 42px; 
+	margin: 0 0 0 1%;
+	 color: #555;
+	 font-size: 11px;
+	 padding-left: 5px; 
+	position: relative;
+}
+            
+.examples {
+	color: #666;
+	 font-family: monospace; 
+	font-size: 11px; 
+	white-space: pre;
+}
+
+            
+.text {
+	height: 30px;
+	 display: table-cell;
+	 vertical-align: middle;
+}
+
+ .button {
+	line-height:100%;
+	height:30px;
+	min-width:120px; 
+	float: right; 
+	margin: 10px 0;
+	padding: 0 12px;
+}
+
+.buttonText {
+	border-radius: 2px;
+	 cursor: default;
+	 font-size: 11px;
+	 font-weight: bold;
+	 text-align: center;
+	 white-space: nowrap;
+	outline: 0;
+}
+
+.buttonColor {
+	box-shadow: none; 
+	background-color: #4d90fe;
+	background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed); 
+	border: 1px solid #3079ed; 
+	color: #fff;
+}
+
